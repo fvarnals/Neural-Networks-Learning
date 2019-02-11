@@ -18,7 +18,7 @@ The aim is to calculate the optimum Theta values (Theta 1 and Theta 2 matrices) 
 
 To achieve this, we first need to calculate the cost function of the neural network, so that we can run gradient descent and find the vlues of Theta which minimise the cost, thereby training the network to accurately categorise the digit images.
 
-1) Feedforward using initial Theta values, so that we can calculate the cost function using backpropagation.
+1) <strong>[nnCostFunction.m](https://github.com/fvarnals/Neural-Networks-Learning/blob/master/nnCostFunction.m) - Feedforward using initial Theta values, so that we can calculate the cost function using backpropagation.
 
 <em>sigmoidGradient.m</em></strong> - Compute the gradient of the sigmoid function<br>
 <em>randInitializeWeights.m</em></strong> - Randomly initialize weights<br>
